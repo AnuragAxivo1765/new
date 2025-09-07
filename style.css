@@ -135,7 +135,7 @@ header .navbar {
 .hero-section .hero-details .button{
     background: var(--secondary-color);
     color: var(--white-color);
-    padding: 12px 20px;
+    padding: 12px 40px;
     border-radius: var(--border-radius-m);
     transition: background 0.3s ease;
 }
@@ -143,6 +143,12 @@ header .navbar {
 .hero-section .hero-details .button:hover{
     background: var(--white-color);
     color: var(--primary-color);
+}
+.hero-details{
+    padding-bottom: 60px;
+}
+.hero-details .buttons{
+    margin-top: 50px;
 }
 .footer-section {
     padding: 20px 0;
